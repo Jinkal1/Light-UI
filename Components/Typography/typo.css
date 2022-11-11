@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading-div, .heading-second-div, .text-utilities-section, .font-family{
+  margin: 2rem 1rem;
+}
+
+.heading-div p:first-child {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.heading-div p:nth-child(2),
+.heading-second-div p:nth-child(2), 
+.font-family p:nth-child(2),
+.font-family p:nth-child(3) {
+  font-size: 1rem;
+  margin: 1rem 0 0 0;
+  font-weight: 300;
+}
+
+.heading-div p:nth-child(3) {
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.line-1 {
+  height: 1px;
+  background: rgb(177, 175, 175);
+}
+
+strong {
+ color: rgb(97, 1, 238);
+ font-weight: 500;
+}
+
+.heading-second-div p:nth-child(1) {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.heading-second-div p:nth-child(2) {
+  margin: 0.5rem 0;
+}
+
+.heading-tags {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(231, 231, 231);
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 0 0.8rem 0;
+}
+
+h2{
+  font-size: 1.5em;
+  margin: 0 0 0.8rem 0;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: 0 0 0.8rem 0;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 0 0 0.8rem 0;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 0.8em;
+  margin: 0 0 0.8rem 0;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 0.6em;
+  margin: 0 0 0.8rem 0;
+  font-weight: bold;
+}
+
+.heading-tags p {
+  font-weight: 300;
+}
+
+.code-snippet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-2 {
+  height: 1px;
+  background: rgb(177, 175, 175);
+  margin: 1rem 0 0 0;
+}
+
+/* Text Utilities */
+
+.text-utilities-heading, .large-heading p:nth-child(1) {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.text-utilities-description, .large-headings {
+  margin: 0.5rem 1.5rem;
+  font-weight: 300;
+}
+
+.text-alignment, .heading-types {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(231, 231, 231);
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.text-alignment p {
+  margin: 0.5rem;
+}
+
+.text-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+}
+
+.text-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-lg {
+  font-size: 1.2em;
+}
+
+.text-medium {
+  font-size: 1em;
+}
+
+.gray-text {
+  color: rgb(124, 118, 118);
+}
+
+/* Headings */
+
+.heading-types strong {
+  color: black;
+  margin: 0 0 0.5rem 0 ;
+}
+
+.heading-xx-lg {
+  font-size: xx-large;
+}
+
+.heading-lg {
+  font-size: large;
+}
+
+.heading-x-lg {
+  font-size: x-large;
+}
+
+.heading-m {
+  font-size: medium;
+}
+
+.heading-x-sm {
+  font-size: x-small;
+}
+
+.heading-sm {
+  font-size: small;
+}
+
+/* Font Family */
+
+.font-family p:nth-child(1) {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.code-snippt-desc {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1rem;
+  transition: all 1s;
+}
+
+.code-snippt-desc:hover {
+  text-decoration: underline;
+}
+
+
+/* Media Quarry */
+@media (max-width: 600px) {
+
+  .heading-div p:first-child,
+  .heading-second-div p:first-child,
+  .text-utilities-section p:first-child,
+  .large-heading p:first-child,
+  .font-family p:first-child {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+   }
+
+}

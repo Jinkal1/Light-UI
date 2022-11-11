@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.line-2, .line_1 {
+  height: 1px;
+  background: rgb(177, 175, 175);
+  margin: 2rem 0;
+}
+
+.line_1 {
+  margin: 1em 0;
+}
+
+section {
+  margin: 2rem 1rem;
+}
+
+.list-docs p:nth-child(1), 
+.list-groups, 
+.checkbox-list-docs p:nth-child(1),
+.notification-list-docs {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+ }
+
+ .list-docs p:nth-child(2) {
+  font-weight: 300;
+ }
+
+ strong {
+  color: #FF5252;
+  font-weight: 500;
+ }
+
+ .simple-list, .check-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(231, 231, 231);
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 0.7em;
+ }
+
+ .notification {
+  background-color: rgb(231, 231, 231);
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 0.7em;
+  width: auto;
+ }
+
+ .fa-solid {
+  height: 15px;
+  width: 15px;
+ }
+
+ .code-snippet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list, .checkbox-list {
+  width: 20%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.list p, .checkbox-list p, .checkbox-item {
+  font-weight: 500;
+  font-size: 1.3em;
+  margin: 1em 0.5em;
+}
+
+
+.noti-content p:nth-child(1) {
+  font-weight: 700;
+  font-size: 1.5em;
+  margin: 1em 0.5em 0 0.5em;
+}
+
+.noti-content p:nth-child(2),
+.noti-content p:nth-child(3),
+.noti-content p:nth-child(4) {
+  font-weight: 300;
+  color: rgb(102, 96, 96);
+  margin: 0.25em 0.5em;
+}
+
+.noti-content p:nth-child(3) {
+  font-weight: 500;
+  color: #252525;
+}
+
+.list_item {
+  font-weight: 400;
+  text-decoration: none;
+  color: #252525;
+  padding: 0.5em 0.6em;
+  border-radius: 5px;
+  transition: all 0.35s ease-in-out;
+}
+
+.list_item:hover {
+  color: #FF5252;
+  border: 1px solid #FF5252
+}
+
+li, .box-text {
+  margin: 1.5em;
+  list-style-type: none;
+}
+
+.box-text {
+  margin: 0.2em;
+  font-size: large;
+  font-weight: 500;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.box-text:hover {
+  color: #2d95fd;
+}
+
+.noti-img {
+  width: 8vw;
+  height: auto;
+  margin: 1em;
+
+}
+
+.noti-component {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Media Quarry */
+@media (max-width: 600px) {
+  .list-docs p:nth-child(1), 
+  .list-groups, 
+  .checkbox-list-docs p:nth-child(1),
+  .notification-list-docs {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+   }
+
+  .list, .checkbox-list, .noti-component {
+    width: 100%;
+    height: auto;
+  }
+
+}

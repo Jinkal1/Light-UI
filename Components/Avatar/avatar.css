@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 1rem 1.2rem;
+}
+
+.avatar-description p:nth-child(1), .round-avatar p:nth-child(1), .square-avatar p:nth-child(1) {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.avatar-description p:nth-child(2), .round-avatar p:nth-child(2), .square-avatar p:nth-child(2) {
+  font-weight: 300;
+}
+
+.line-2 {
+  height: 1px;
+  background: rgb(177, 175, 175);
+  margin: 2rem 0;
+}
+
+.round-avatar-img, .square-avatar-img{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+  background-color: rgb(231, 231, 231);
+  padding: 1.5em;
+  border-radius: 0.5em;
+}
+
+.s-round-avatar {
+  height: 4em;  
+  width: 4em;
+  background-color: rgb(231, 231, 231);
+}
+
+.s-square-avatar{
+  height: 3em;  
+  width: 3em;
+  margin: 0 1em 0 0;
+}
+
+.md-round-avatar {
+  height: 5em;
+  width: 5em;
+}
+
+.md-square-avatar {
+  height: 4em;
+  width: 4em;
+  margin: 0 1em 0 0;
+}
+
+
+.lg-round-avatar {
+  height: 6em;
+  width: 6em;
+}
+
+.lg-square-avatar {
+  height: 5em;
+  width: 5em;
+  margin: 0 1em 0 0;
+}
+
+.code-snippet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media Quarry */
+@media (max-width: 600px) {
+  .avatar-description p:nth-child(1), 
+  .round-avatar p:nth-child(1), 
+  .square-avatar p:nth-child(1)  {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+   }
+
+}
+

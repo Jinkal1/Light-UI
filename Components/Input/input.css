@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.line-2 {
+  height: 1px;
+  background: rgb(177, 175, 175);
+  margin: 2rem 0;
+}
+
+
+section {
+  margin: 2rem 1rem;
+}
+
+.input-docs p:nth-child(1), .label-input-docs p:nth-child(1), .form-valid-docs p:nth-child(1) {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+ }
+
+ .input-docs p:nth-child(2), .label-input-docs p:nth-child(2), .form-valid-docs p:nth-child(2) {
+  font-weight: 300;
+ }
+
+ strong {
+  color: #FF5252;
+  font-weight: 500;
+ }
+
+ .input-types-form, .form-valid {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(231, 231, 231);
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 0.5rem;
+ }
+
+ .code-snippet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-types-form label:nth-child(1), .pswd-label {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0 0 0.3em 0;
+}
+
+.user-name, .pass-word {
+  border: 1px solid;
+  padding: 0.6rem 0.7rem;
+  float: left;
+  font-size: 0.8rem;
+  margin: 10px 0;
+  width: 80%;
+  transition: 0.3s;
+  outline: none;
+  border-radius: 3px;
+}
+
+.form-valid {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.form-valid-password, .form-valid-wp, .form-valid-success {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 20px 0 2px 0;
+  color: #df0b0b;
+}
+
+.form-valid-success {
+  color: #4CAF50;
+}
+
+.form-valid-wp {
+  margin: 2px 0 20px 0; 
+}
+
+.from-valid-input, .from-valid-input-success {
+  border: 1.5px solid;
+  padding: 0.6rem 0.7rem;
+  float: left;
+  font-size: 0.8rem;
+  width: 80%;
+  transition: 0.3s;
+  outline: none;
+  border-radius: 3px;
+  color: #df0b0b;
+}
+
+.from-valid-input-success {
+  color: #4CAF50;
+}
+
+/* Media Quarry */
+@media (max-width: 600px) {
+
+  .input-docs p:nth-child(1), 
+  .label-input-docs p:nth-child(1), 
+  .form-valid-docs p:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 0.5rem 0;
+   }
+
+}

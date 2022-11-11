@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Main Top Section */
+
+/* Right Section */
+
+.top-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed; */
+  /* background-color: rgb(43, 153, 204); */
+  color: rgb(0, 0, 0);
+  height: 6.25em;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-heading{
+ font-size: 2rem;
+ font-family: 'Poppins', sans-serif;
+ margin: 1rem 1rem 1rem 5rem;
+ font-weight: 700;
+}
+
+.sub-heading{
+ font-family: 'Poppins', sans-serif;
+ font-size: 0.85rem;
+}
+
+/* Left Section */
+
+.left-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.left-section p {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.left-section p a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.middle-section .heading{
+  font-size: 2.5em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.summery{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doc-main-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doc-btn{
+  font-size: 1rem;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border-width: 0.1rem;
+  background-color: #fff;
+  border-color: #FF5252;
+  color: #FF5252;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.doc-btn:hover{
+  background-color: #FF5252;
+  color: #fff;
+}
+
+.doc-btn a {
+  text-decoration: none;
+  color: #FF5252;
+  transition: all 0.5s;
+}
+
+.doc-btn a:hover{
+  color: white;
+}

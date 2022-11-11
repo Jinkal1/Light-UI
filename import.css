@@ -1,0 +1,15 @@
+@import url(./light.css);
+@import url(./Components/Alert/alert.css);
+@import url(./Components/Avatar/avatar.css);
+@import url(./Components/Badges/badge.css);
+@import url(./Components/Card/card.css);
+@import url(./Components/Button/button.css);
+@import url(./Components/Grid/grid.css);
+@import url(./Components/Image-Comp/image.css);
+@import url(./Components/Input/input.css);
+@import url(./Components/Lists/list.css);
+@import url(./Components/Navigation/Nav.css);
+@import url(./Components/Rating/rating.css);
+@import url(./Components/Typography/typo.css);
+@import url(./Components/Widgets/widgets.css);
+/* @import url(./Components/modals/); */

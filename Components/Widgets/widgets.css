@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.line-2,
+.line_1 {
+  height: 1px;
+  background: rgb(177, 175, 175);
+  margin: 2rem 0;
+}
+
+.line_1 {
+  margin: 1em 0;
+}
+
+section {
+  margin: 2rem 1rem;
+}
+
+.widget-docs p:nth-child(1) {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+}
+
+.widget-docs p:nth-child(2) {
+  font-weight: 300;
+}
+
+strong {
+  color: #ff5252;
+  font-weight: 500;
+}
+
+.widget-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(231, 231, 231);
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 0.7em;
+ }
+
+ .code-snippet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* * {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+  height: 100%;
+} */
+
+@keyframes rotate {
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  display: grid;
+  /* place-items: center; */
+  margin: 0;
+  font-family: "Euclid Circular A";
+  line-height: 1.5;
+  /* background: #24262a;
+  /* color: #f9f9f9; */
+}
+
+button {
+  border: 0;
+}
+
+.widget {
+  background: rgb(189, 183, 183);
+  padding: 30px;
+  width: 300px;
+  border-radius: 20px;
+  border:1px solid #9a2ca0;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.widget-value {
+  font-size: 38px;
+  line-height: 1;
+  /* color: #f9f9f9; */
+}
+
+.widget-label {
+  display: block;
+  color: rgba(20, 19, 19, 0.8);
+  padding-bottom: 18px;
+  font-weight: 500;
+}
+
+.avatar-list {
+  display: flex;
+}
+
+.avatar {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.avatar:not(:first-child) {
+  margin-left: -10px;
+}
+
+.avatar:hover {
+  z-index: 2;
+}
+
+.avatar::before {
+  content: attr(data-content);
+  position: absolute;
+  bottom: 48px;
+  left: 50%;
+  translate: -50% 10px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 13px;
+  padding: 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  transition: 0.3s;
+  /* color: #f9f9f9; */
+}
+
+.avatar:not(.plus):hover::before {
+  opacity: 1;
+  visibility: visible;
+  translate: -50% 0;
+}
+
+.avatar.plus {
+  display: grid;
+  place-items: center;
+  background: #f9f9f9;
+  color: #1a1a1a;
+  font-size: 12px;
+  font-weight: 500;
+}
